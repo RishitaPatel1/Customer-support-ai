@@ -1,0 +1,15 @@
+{
+  "total_samples": 5963,
+  "train_samples": 4174,
+  "val_samples": 894,
+  "test_samples": 895,
+  "categories": {
+    "general_inquiry": 4700,
+    "ORDER": 1258,
+    "SHIPPING": 5
+  },
+  "priority_distribution": {
+    "medium": 5378,
+    "high": 585
+  }
+}

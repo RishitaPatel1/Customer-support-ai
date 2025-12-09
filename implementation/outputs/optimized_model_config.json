@@ -1,0 +1,86 @@
+{
+  "model_name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "device": "cpu",
+  "categories": [
+    "general_inquiry",
+    "ORDER",
+    "SHIPPING"
+  ],
+  "priority_levels": [
+    "medium",
+    "high"
+  ],
+  "sentiment_types": [
+    "positive",
+    "negative",
+    "neutral"
+  ],
+  "optimization_settings": {
+    "max_length": 128,
+    "batch_size": 1,
+    "memory_optimized": true,
+    "fast_tokenizer": true
+  },
+  "training_data_stats": {
+    "total_samples": 5963,
+    "avg_text_length": 77.80395773939293,
+    "categories": [
+      "general_inquiry",
+      "ORDER",
+      "SHIPPING"
+    ],
+    "priority_levels": [
+      "medium",
+      "high"
+    ],
+    "category_distribution": {
+      "general_inquiry": 0.7881938621499245,
+      "ORDER": 0.21096763374140534,
+      "SHIPPING": 0.0008385041086701325
+    },
+    "priority_distribution": {
+      "medium": 0.9018950192855945,
+      "high": 0.0981049807144055
+    },
+    "avg_estimated_hours": 2.3857873553580413,
+    "hour_ranges_by_category": {
+      "min": {
+        "ORDER": 0.5,
+        "SHIPPING": 0.75,
+        "general_inquiry": 1.1
+      },
+      "max": {
+        "ORDER": 2.25,
+        "SHIPPING": 1.2,
+        "general_inquiry": 6.7
+      },
+      "mean": {
+        "ORDER": 1.2710254372019079,
+        "SHIPPING": 0.96,
+        "general_inquiry": 2.68568085106383
+      }
+    },
+    "text_complexity_stats": {
+      "min_length": 11,
+      "max_length": 271,
+      "avg_words": 15.074459164849907
+    }
+  },
+  "performance_metrics": {
+    "total_tests": 9,
+    "category_accuracy": 0.5555555555555556,
+    "priority_accuracy": 0.8888888888888888
+  },
+  "system_specs": {
+    "processor": "Intel i7-1065G7",
+    "ram_gb": 12,
+    "graphics": "Intel Iris Plus",
+    "device": "cpu"
+  },
+  "optimized_for_12gb": true,
+  "force_llama": true,
+  "no_fallbacks": false,
+  "llama_only_mode": true,
+  "setup_complete": true,
+  "version": "optimized_v2.0"
+}

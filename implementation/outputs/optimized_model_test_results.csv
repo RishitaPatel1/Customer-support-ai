@@ -1,0 +1,10 @@
+ticket_text,true_category,predicted_category,true_priority,predicted_priority,true_hours,predicted_hours,sentiment,category_correct,priority_correct
+hi simon im sorry to hear this sounds like your account may have been compromised i strongly advise ...,general_inquiry,general_inquiry,medium,medium,5.4,2.3857873553580413,neutral,True,True
+awesome job by indy employees who tracked down our bag after another pass took it home made a bad si...,general_inquiry,ORDER,high,medium,3.1,2.3857873553580413,neutral,False,False
+ol ho no momento no temos previso mas qualquer novidade ser anunciada diretamente no nosso site e re...,general_inquiry,general_inquiry,medium,medium,3.0,2.3857873553580413,neutral,True,True
+i missed an item in purchase order number,ORDER,ORDER,medium,medium,1.2,2.3857873553580413,neutral,True,True
+cancel order order number,ORDER,ORDER,medium,medium,0.6,2.3857873553580413,neutral,True,True
+how can i change purchase order number,ORDER,ORDER,medium,medium,1.05,2.3857873553580413,neutral,True,True
+i entered a wrong address update it,SHIPPING,general_inquiry,medium,medium,1.05,2.3857873553580413,neutral,False,True
+i have an trouble editing the address,SHIPPING,general_inquiry,medium,medium,1.05,2.3857873553580413,neutral,False,True
+need to update my address,SHIPPING,general_inquiry,medium,medium,0.75,2.3857873553580413,neutral,False,True

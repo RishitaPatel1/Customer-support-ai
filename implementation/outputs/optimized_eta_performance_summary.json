@@ -1,0 +1,95 @@
+{
+  "total_tickets": 50,
+  "avg_final_eta": 2.084,
+  "min_eta": 1.7,
+  "max_eta": 2.5,
+  "std_eta": 0.18223107107545117,
+  "median_eta": 2.2,
+  "ml_model_performance": {
+    "random_forest": {
+      "mae": 0.00035875943001130635,
+      "r2": 0.9999374956331226
+    },
+    "gradient_boosting": {
+      "mae": 0.0003162126341475225,
+      "r2": 0.9999357206210483
+    },
+    "training_samples": 4770,
+    "test_samples": 1193
+  },
+  "workload_analysis": {
+    "total_workload_hours": 104.2,
+    "tickets_24h": 50,
+    "tickets_48h": 50,
+    "tickets_week": 50
+  },
+  "prediction_quality": {
+    "avg_confidence": 0.75482,
+    "high_confidence_predictions": 12,
+    "avg_ml_pattern_difference": 0.612873933633258
+  },
+  "complexity_analysis": {
+    "count": {
+      "complex": 1,
+      "moderate": 34,
+      "simple": 15
+    },
+    "mean": {
+      "complex": 2.5,
+      "moderate": 2.1352941176470592,
+      "simple": 1.9400000000000002
+    },
+    "std": {
+      "complex": NaN,
+      "moderate": 0.1593211982341761,
+      "simple": 0.12421180068162377
+    }
+  },
+  "category_analysis": {
+    "count": {
+      "ORDER": 6,
+      "SHIPPING": 2,
+      "general_inquiry": 42
+    },
+    "mean": {
+      "ORDER": 1.75,
+      "SHIPPING": 1.7,
+      "general_inquiry": 2.1500000000000004
+    },
+    "std": {
+      "ORDER": 0.05477225575051664,
+      "SHIPPING": 0.0,
+      "general_inquiry": 0.10649630704693085
+    }
+  },
+  "priority_analysis": {
+    "count": {
+      "medium": 50
+    },
+    "mean": {
+      "medium": 2.084
+    },
+    "std": {
+      "medium": 0.18223107107545122
+    }
+  },
+  "processing_performance": {
+    "total_processing_time": 0.07942700386047363,
+    "avg_time_per_prediction": 0.0015885400772094726,
+    "predictions_per_second": 629.5088265929442
+  },
+  "training_data_stats": {
+    "total_training_samples": 5963,
+    "training_eta_range": [
+      0.5,
+      6.7
+    ],
+    "training_avg_eta": 2.3857873553580413
+  },
+  "system_info": {
+    "model_version": "optimized_v2.0",
+    "prediction_method": "ensemble_ml_pattern",
+    "optimization_level": "advanced",
+    "data_source": "100_percent_real_customer_data"
+  }
+}

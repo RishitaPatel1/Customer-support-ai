@@ -1,0 +1,20 @@
+{
+  "total_tickets": 20,
+  "avg_eta_hours": 1.9499999999999997,
+  "min_eta_hours": 1.0,
+  "max_eta_hours": 4.3,
+  "eta_by_category": {
+    "billing": 1.6466666666666667,
+    "technical": 2.8600000000000003
+  },
+  "eta_by_priority": {
+    "high": 1.95
+  },
+  "eta_by_complexity": {
+    "moderate": 2.2800000000000002,
+    "simple": 1.6199999999999999
+  },
+  "prediction_system": "LLaMA-enhanced",
+  "next_24h_workload": 20,
+  "total_workload_hours": 38.99999999999999
+}

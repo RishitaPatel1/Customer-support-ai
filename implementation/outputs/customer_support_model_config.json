@@ -1,0 +1,29 @@
+{
+  "model_name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "device": "cpu",
+  "categories": [
+    "billing",
+    "technical",
+    "general_inquiry",
+    "account",
+    "complaint",
+    "compliment"
+  ],
+  "priority_levels": [
+    "high",
+    "medium",
+    "low"
+  ],
+  "sentiment_types": [
+    "positive",
+    "negative",
+    "neutral"
+  ],
+  "optimized_for_12gb": true,
+  "force_llama": true,
+  "no_fallbacks": true,
+  "setup_complete": true,
+  "test_tickets_processed": 10,
+  "total_test_tickets": 10,
+  "testing_complete": true
+}

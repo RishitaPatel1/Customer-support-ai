@@ -1,0 +1,21 @@
+{
+  "model_name": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "model_path": "../models/models--TinyLlama--TinyLlama-1.1B-Chat-v1.0/snapshots/fe8a4ea1ffedaf415f4da2f062534de366a451e6/config.json",
+  "tokenizer_path": "../models/models--TinyLlama--TinyLlama-1.1B-Chat-v1.0/snapshots/fe8a4ea1ffedaf415f4da2f062534de366a451e6/tokenizer.model",
+  "architecture": "llama",
+  "optimized_for_12gb": true,
+  "system_specs": {
+    "processor": "Intel i7-1065G7",
+    "ram_gb": 12,
+    "graphics": "Intel Iris Plus",
+    "device": "cpu"
+  },
+  "force_llama": true,
+  "no_fallbacks": true,
+  "llama_only_mode": true,
+  "memory_optimized": true,
+  "setup_complete": true,
+  "test_success": true,
+  "recommended_mode": "transformers",
+  "setup_timestamp": "2025-11-27 15:11:43"
+}

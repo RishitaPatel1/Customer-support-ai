@@ -1,0 +1,15 @@
+{
+  "total_tickets": 20,
+  "category_distribution": {
+    "billing": 15,
+    "technical": 5
+  },
+  "priority_distribution": {
+    "high": 20
+  },
+  "sentiment_distribution": {
+    "positive": 20
+  },
+  "avg_estimated_hours": 1.67,
+  "classification_system": "LLaMA-powered"
+}

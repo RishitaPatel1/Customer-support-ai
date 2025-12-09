@@ -1,0 +1,9 @@
+{
+  "total_samples": 50,
+  "category_accuracy": 0.72,
+  "priority_accuracy": 0.9,
+  "avg_processing_time": 15.685779261589051,
+  "total_processing_time": 784.2889630794525,
+  "categories_tested": 2,
+  "priorities_tested": 2
+}
